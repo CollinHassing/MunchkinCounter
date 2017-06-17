@@ -4,12 +4,16 @@ div {
 	margin: 1%;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
 	width: 100vw;
 	height: 95vh;
 	margin: 0 auto;
 	padding: 0;
-	position: fixed;
+	position: relative;
 }
 
 .nameHeader {

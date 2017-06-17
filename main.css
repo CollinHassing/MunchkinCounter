@@ -1,7 +1,7 @@
 div {
 	border: 1px solid black;
 	width: 100%;
-	margin: 1%;
+	padding: 0;
 }
 
 html, body {
@@ -12,13 +12,13 @@ body {
 	width: 100%;
 	height: 95%;
 	margin: 0 auto;
-	padding: 0;
 	position: relative;
 }
 
 .nameHeader {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 div .itemChange {
@@ -30,25 +30,29 @@ div .itemChange {
 .combat {
 	text-align: center;
 	margin-bottom: 25px;
+	height: 200px;
 }
 
 .myLevel {
 	width: 47%;
 	text-align: center;
 	float: left;
-	height: 95%;
+	height: 250px;
 }
 
 .myItems {
 	width: 47%;
-	height: 95%;
 	text-align: center;
 	float: right;
+	height: 250px;
 
 }
 
 .new {
 	clear: both;
+	text-align: center;
+	height: 80px;
+	padding-top: 20px;
 }
 
 .scores{

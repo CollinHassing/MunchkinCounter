@@ -1,5 +1,49 @@
 div {
 	border: 1px solid black;
-	width: 50%;
+	width: 100%;
 	margin: 1%;
+}
+
+body {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 450px;
+}
+
+.nameHeader {
+	text-align: center;
+}
+
+div .itemChange {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.combat {
+	text-align:  center;
+}
+
+.myLevel {
+	width: 47%;
+	text-align: center;
+	float: left;
+	height: 200px;
+}
+
+.myItems {
+	width: 47%;
+	height: 200px;
+	text-align: center;
+	float: right;
+
+}
+
+.new {
+	clear: both;
+}
+
+.scores{
+	height: 210px;
 }

@@ -5,11 +5,11 @@ div {
 }
 
 body {
-	width: 90%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	margin: 0 auto;
 	padding: 0;
-	max-width: 450px;
+	max-width: 850px;
 }
 
 .nameHeader {
@@ -45,5 +45,5 @@ div .itemChange {
 }
 
 .scores{
-	height: 210px;
+	height: 80%;
 }

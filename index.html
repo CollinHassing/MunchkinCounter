@@ -4,6 +4,7 @@
 	<title>Munchkins Game Counter</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel= "https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -11,33 +12,35 @@
 	<p class="mucnhkinName"><span id="playerName"></span> the <span id="nameTitle"></span>Munckin</p>
 </div>
 
-<div>
+<div class="combat">
 	<h2>Combat Strength</h2>
 	<h2 class="combatStrength">1</h2>
 </div>
 
-<div class="myLevel">
-	<p>Munchkin Level<p>
-	<h2 class="level">1</h2>
-	<button class="levelUp">+</button>
-	<button class="levelDown">-</button>
+<div class="scores">
+	<div class="myLevel">
+		<p>Munchkin Level</p>
+		<h2 class="level">1</h2>
+    	<button class="levelUp">+</button>
+		<button class="levelDown">-</button>
+	</div>
+
+	<div class="myItems">
+		<p>Item Count</p>
+		<h2 class="item">0</h2>
+		<button class="itemUp">+</button>
+		<button class="itemDown">-</button>
+			<div class="itemChange">
+				<button class="itemUp3">+3</button>
+				<button class="itemUp5">+5</button>
+				<button class="itemDown3">-3</button>
+				<button class="itemDown5">-5</button>
+			</div>
+	</div>
 </div>
-
-<div class="myItems">
-	<p>Item Count</p>
-	<h3 class="item">0</h2>
-	<button class="itemUp">+</button>
-	<button class="itemDown">-</button>
-		<div class="itemChange">
-			<button class="itemUp3">+3</button>
-			<button class="itemUp5">+5</button>
-			<button class="itemDown3">-3</button>
-			<button class="itemDown5">-5</button>
-		</div>
+<div class="new">
+	<button id="newGame">New Game</button>
 </div>
-
-<button id="newGame">New Game</button>
-
 
 <script type="text/javascript" src="script.js"></script>
 </body>

@@ -6,9 +6,10 @@ div {
 
 body {
 	width: 100vw;
-	height: 90vh;
+	height: 95vh;
 	margin: 0 auto;
 	padding: 0;
+	position: fixed;
 }
 
 .nameHeader {

@@ -1,5 +1,5 @@
 div {
-	border: 1px solid black;
+	border: 2px solid black;
 	width: 100%;
 	padding: 0;
 }
@@ -16,7 +16,8 @@ body {
 	max-width: 470px;
 	padding: 1%;
 	font-family:'Press Start 2P', cursive;
-	
+	background-color: #4593e3;
+	color: white;
 }
 p {
 	font-size: 13px;
@@ -25,7 +26,8 @@ p {
 h1 {
 	font-size: 25px;
 	padding: 0;
-	font-family: 'Press Start 2P', cursive;;
+	line-height: 1.6;
+	font-family: 'Press Start 2P', cursive;
 }
 
 h2 {
@@ -43,6 +45,9 @@ button {
 	width: 60px;
 	font-size: 25px;
 	margin-top: 20px;
+	font-family: 'lato';
+	background-color: #226fbe;
+	color: white;
 }
 
 .combatStrength {
@@ -65,7 +70,7 @@ div .itemChange {
 }
 div .itemChange button {
 	width: 23%;
-	font-size: 16px;
+	font-size: 18px;
 	height: 40px;
 	margin: 1%;
 	float: left;
@@ -98,7 +103,7 @@ div .itemChange button {
 }
 
 #newGame {
-	width: 150px;
+	width: 65%;
 	height: 70px;
 	margin-top: 3%;
 }

@@ -1,8 +1,18 @@
 div {
-	border: 2px solid black;
+	border: 3px solid white;
 	width: 100%;
 	padding: 0;
 	border-radius: 2%;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 html, body {
@@ -19,19 +29,13 @@ body {
 	font-family:'Press Start 2P', cursive;
 	background-color: #4593e3;
 	color: white;
+	box-sizing: border-box;
 }
 p {
-	font-size: 13px;
+	font-size: 20px;
+	font-family: 'lato';
 }
 i {
-	color: white;
-	position: absolute;
-	top:35%;
-    left:56.5%;
-}
-.down {
-	left: 23%;
-	top: 36.5%;
 }
 h1 {
 	font-size: 25px;
@@ -42,6 +46,11 @@ h1 {
 
 h2 {
 	font-size: 20px;
+	font-family: 'lato';
+	border-bottom: 2px solid white;
+	width: 35%;
+	margin: 15px auto;
+	line-height: 30px;
 }
 
 h3 {
@@ -87,28 +96,28 @@ div .itemChange button {
 }
 .combat {
 	text-align: center;
-	height: 140px;
+	height: 130px;
 	margin-bottom: 2px;
 	border: none;
 }
 
 .myLevel {
-	width: 45%;
+	width: 46%;
 	text-align: center;
 	float: left;
-	height: 250px;
+	height: 260px;
 	padding: 2%;
-
+	margin-left: 2%;
     position:relative;
 }
 
 .myItems {
-	width: 45%;
+	width: 46%;
 	text-align: center;
 	float: right;
-	height: 250px;
+	height: 260px;
 	padding: 2%;
-
+	margin-right: 2%;
     position:relative;
 
 }
@@ -117,8 +126,8 @@ div .itemChange button {
 }
 
 #newGame {
-	width: 65%;
-	height: 70px;
+	width: 45%;
+	height: 50px;
 	margin-top: 3%;
 }
 

@@ -30,6 +30,12 @@ body {
 	background-color: #4593e3;
 	color: white;
 	box-sizing: border-box;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	
 }
 p {
 	font-size: 20px;
@@ -62,6 +68,14 @@ button {
 	font-family: 'lato';
 	background-color: #226fbe;
 	color: white;
+	
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	
+
 }
 
 .combatStrength {

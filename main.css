@@ -1,5 +1,5 @@
 div {
-	border: 3px solid white;
+	border: 2px solid white;
 	width: 100%;
 	padding: 0;
 	border-radius: 2%;
@@ -35,8 +35,7 @@ p {
 	font-size: 20px;
 	font-family: 'lato';
 }
-i {
-}
+
 h1 {
 	font-size: 25px;
 	padding: 0;
@@ -74,6 +73,7 @@ button {
 
 .nameHeader {
 	text-align: center;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 div .itemChange {
@@ -105,6 +105,7 @@ div .itemChange button {
 	padding: 2%;
 	margin-left: 2%;
     position:relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .myItems {
@@ -115,6 +116,7 @@ div .itemChange button {
 	padding: 2%;
 	margin-right: 2%;
     position:relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 }
 .scores {

@@ -14,7 +14,7 @@ body {
 	height: 95%;
 	margin: 0 auto;
 	position: relative;
-	max-width: 600px;
+	max-width: 500px;
 	padding: 3%;
 }
 
@@ -54,7 +54,11 @@ div .itemChange {
 	margin: 0 auto;
 	margin-top: 20px;
 }
-
+div .itemChange button {
+	width: 40px;
+	font-size: 16px;
+	height: 40px;
+}
 .combat {
 	text-align: center;
 	margin-bottom: 25px;
@@ -75,6 +79,8 @@ div .itemChange {
 	height: 250px;
 
 }
+
+
 
 #newGame {
 	width: 150px;

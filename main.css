@@ -68,17 +68,19 @@ div .itemChange button {
 }
 
 .myLevel {
-	width: 47%;
+	width: 45%;
 	text-align: center;
 	float: left;
 	height: 250px;
+	padding: 2%;
 }
 
 .myItems {
-	width: 47%;
+	width: 45%;
 	text-align: center;
 	float: right;
 	height: 250px;
+	padding: 2%;
 
 }
 

@@ -140,10 +140,11 @@ div .itemChange button {
 }
 
 #newGame {
-	width: 40%;
-	height: 50%;
+	width: 50%;
+	height: 45%;
 	margin-top: 5%;
 	font-size: 1.5rem;
+	padding: 2%;
 }
 
 .new {

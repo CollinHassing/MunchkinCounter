@@ -93,7 +93,7 @@ button {
 }
 
 div .itemChange {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 5%;
 	padding: 0;
@@ -106,6 +106,7 @@ div .itemChange button {
 	padding: 5%;
 	margin: 1%;
 	float: left;
+	text-align: center;
 }
 .combat {
 	text-align: center;

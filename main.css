@@ -15,32 +15,42 @@ body {
 	position: relative;
 	max-width: 470px;
 	padding: 1%;
+	font-family:'Press Start 2P', cursive;
+	
 }
-
 p {
-	font-size: 20px;
+	font-size: 13px;
 }
 
 h1 {
 	font-size: 25px;
 	padding: 0;
+	font-family: 'Press Start 2P', cursive;;
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 h3 {
-	font-size: 55px;
-	margin: 0
+	font-size: 35px;
+	margin: 0;
+	margin-bottom: 5px;
 }
 
 button {
 	height: 50px;
 	width: 60px;
 	font-size: 25px;
+	margin-top: 20px;
 }
 
+.combatStrength {
+	font-size: 55px;
+	margin-top: 2px;
+	margin-bottom: 0;
+	padding: 1%
+}
 
 .nameHeader {
 	text-align: center;
@@ -51,16 +61,20 @@ div .itemChange {
 	margin: 0 auto;
 	margin-top: 20px;
 	padding: 0;
+	border: none;
 }
 div .itemChange button {
 	width: 23%;
 	font-size: 16px;
 	height: 40px;
-	margin: 0;
+	margin: 1%;
+	float: left;
 }
 .combat {
 	text-align: center;
-	height: 160px;
+	height: 140px;
+	margin-bottom: 2px;
+	border: none;
 }
 
 .myLevel {
@@ -79,17 +93,20 @@ div .itemChange button {
 	padding: 2%;
 
 }
-
-
+.scores {
+	border: none;
+}
 
 #newGame {
 	width: 150px;
 	height: 70px;
+	margin-top: 3%;
 }
 
 .new {
 	clear: both;
 	text-align: center;
 	height: 80px;
+	border: none;
 	}
 

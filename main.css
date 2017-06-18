@@ -64,12 +64,13 @@ button {
 	height: 20%;
 	width: 30%;
 	font-size: 2rem;
-	margin-top: 10%;
 	font-family: 'lato';
 	background-color: #226fbe;
 	color: white;
-
+	text-align: center;
+	margin: 10% auto 5% auto;
 	text-shadow:
+
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -106,6 +107,7 @@ div .itemChange button {
 	padding: 5%;
 	margin: 1%;
 	float: left;
+	margin-top: 1%;
 	text-align: center;
 }
 .combat {
